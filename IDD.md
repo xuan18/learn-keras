@@ -19,7 +19,7 @@
 1. 首先参考课程：refer、提醒、problems
 2. 官方文档、FAQ
 3. 书籍教程
-4. [提问的智慧](https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 
+4. [提问的智慧](https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 5. 发布课程issue
 6. 参考课程 issue、同学作业
 7. 临近任务期限：6
@@ -46,11 +46,13 @@
     - [x] 安装ubuntu
     - [ ] relu函数是？
     - [ ] 理解2.3.1
-      - [ ] x[i, j] 是什么？
-        - [ ] https://blog.csdn.net/xinjieyuan/article/details/81429048
-        - [ ] ​
+      - [x] x[i, j] 是什么？
+        - [x] https://blog.csdn.net/xinjieyuan/article/details/81429048
+          - [x] ​对于 numpy的dtype **x(array)**（例如 `x = numpy.arrary([1,2])`), i 和 j 表示 索引位置
       - [ ] x.shape ?
-        - [ ] 轴？
+        - [ ] shape 表示形状(p25)
+        - [ ] 轴(axis)
+          - [ ] 张量的维度通常叫做轴 p23
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 用时min >）
         - 思考
@@ -94,7 +96,7 @@
 > 1. 首先参考课程：refer、提醒、problems
 > 2. 官方文档、FAQ
 > 3. 书籍教程
-> 4. [提问的智慧](https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 
+> 4. [提问的智慧](https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 > 5. 发布课程issue
 > 6. 参考课程 issue、同学作业
 > 7. 临近任务期限：6
