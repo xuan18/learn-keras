@@ -51,6 +51,8 @@
           - [x] ​对于 numpy的dtype **x(array)**（例如 `x = numpy.arrary([1,2])`), i 和 j 表示 索引位置
       - [ ] x.shape ?
         - [ ] shape 表示形状(p25)
+          - [ ] x.shape[0],表示在第一维度的所有元素吗？ 但其输出的却为 <class 'tuple'> ，跟我理解不同，暂且放下
+            - [ ] x = np.array 数据类型为 `<class 'numpy.ndarray'>`
         - [ ] 轴(axis)
           - [ ] 张量的维度通常叫做轴 p23
 - [ ] **具体作业追踪 Issue 模板建议**

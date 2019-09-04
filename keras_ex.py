@@ -37,3 +37,7 @@ def naive_add(x, y):
 
 print(naive_relu(x))
 print(naive_add(x, y))
+print(type(x.shape))
+print(x.shape)
+print(type(x))
+# python3 keras_ex.py
