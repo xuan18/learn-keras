@@ -45,16 +45,17 @@
     - [ ] 参考：《 [当 AlphaGo 战胜李世石以后，我们来聊聊深度学习](https://www.infoq.cn/article/Lets-talk-about-deep-learning.) 》
     - [x] 安装ubuntu
     - [ ] relu函数是？
-    - [ ] 理解2.3.1
+    - [x] 理解2.3.1
       - [x] x[i, j] 是什么？
         - [x] https://blog.csdn.net/xinjieyuan/article/details/81429048
           - [x] ​对于 numpy的dtype **x(array)**（例如 `x = numpy.arrary([1,2])`), i 和 j 表示 索引位置
-      - [ ] x.shape ?
-        - [ ] shape 表示形状(p25)
-          - [ ] x.shape[0],表示在第一维度的所有元素吗？ 但其输出的却为 <class 'tuple'> ，跟我理解不同，暂且放下
-            - [ ] x = np.array 数据类型为 `<class 'numpy.ndarray'>`
-        - [ ] 轴(axis)
-          - [ ] 张量的维度通常叫做轴 p23
+      - [x] x.shape ?
+        - [x] shape 表示形状(p25)
+          - [x] x.shape[0],表示在第一维度的所有元素吗？ 但其输出的却为 <class 'tuple'> ，跟我理解不同，尝试理解
+            - [x] x = np.array 数据类型为 `<class 'numpy.ndarray'>`
+            - [x] 忽略了要把 range 和 x[i,j] 放在一起理解，作注释会容易理解点
+        - [x] 轴(axis)
+          - [x] 张量的维度通常叫做轴 p23
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 用时min >）
         - 思考

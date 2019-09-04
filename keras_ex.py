@@ -1,5 +1,6 @@
 import keras
 import numpy as np
+import pysnooper as ps
 
 
 x = np.array([[5, 78, 2, 24, 0],
@@ -13,17 +14,19 @@ y= np.array([[5, 78, 2, 24, 0],
 keras.layers.Dense(512, activation='relu')
 # output = relu(dot(W, input) + b)
 
+@ps.snoop()
 def naive_relu(x):
     assert len(x.shape) == 2
 
+    # deep copy
     x = x.copy()
+    # return range of index
     for i in range(x.shape[0]):
+        # return range of index
         for j in range(x.shape[1]):
+            # x[i, j], i and j are index
             x[i, j] = max(x[i, j], 0)
     return x
-# i in x.shape=(3,5), Output: 3
-# j in x.shape=(3,5), Output: 5
-# x[3,5]=max(5,0) ??? x.shape[0]表示第一个轴上的多个元素？
 
 def naive_add(x, y):
     assert len(x.shape) == 2
@@ -31,7 +34,9 @@ def naive_add(x, y):
 
     x = x.copy()
     for i in range(x.shape[0]):
+        # print(i)
         for j in range(x.shape[1]):
+            # print(x[i,j])
             x[i, j] += y[i, j]
     return x
 
