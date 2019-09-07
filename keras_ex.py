@@ -45,4 +45,8 @@ print(naive_add(x, y))
 print(type(x.shape))
 print(x.shape)
 print(type(x))
+
+z = x + y
+z = np.maximum(z, 0.)
+print(z)
 # python3 keras_ex.py
