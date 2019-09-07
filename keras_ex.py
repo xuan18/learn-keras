@@ -48,5 +48,7 @@ print(type(x))
 
 z = x + y
 z = np.maximum(z, 0.)
+t = np.maximum(1., z)
 print(z)
+print(t)
 # python3 keras_ex.py

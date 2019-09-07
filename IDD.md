@@ -56,7 +56,10 @@
             - [x] 忽略了要把 range 和 x[i,j] 放在一起理解，作注释会容易理解点
         - [x] 轴(axis)
           - [x] 张量的维度通常叫做轴 p23
-    - [ ] numpy.maximun ?
+    - [x] [numpy.maximun](https://docs.scipy.org/doc/numpy/reference/generated/numpy.maximum.html)
+         - [x] 0. 意思为 0.0
+         - [x] np.maximum(x1, x2:array_like)
+         - [ ] numpy 默认的数据类型是？
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 用时min >）
         - 思考
