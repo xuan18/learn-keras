@@ -53,15 +53,19 @@
         - [x] shape 表示形状(p25)
           - [x] x.shape[0],表示在第一维度的所有元素吗？ 但其输出的却为 <class 'tuple'> ，跟我理解不同，尝试理解
             - [x] x = np.array 数据类型为 `<class 'numpy.ndarray'>`
-            - [x] 忽略了要把 range 和 x[i,j] 放在一起理解，作注释会容易理解点
+            - [x] 忽略了要把 range 和 x[i,j] 放在一起理解，作注释会容易理解点，i 是列，j 是行
         - [x] 轴(axis)
           - [x] 张量的维度通常叫做轴 p23
     - [x] [numpy.maximun](https://docs.scipy.org/doc/numpy/reference/generated/numpy.maximum.html)
-         - [x] 0. 意思为 0.0
-         - [x] np.maximum(x1, x2:array_like)
-         - [ ] numpy 默认的数据类型是？
+      - [x] 0. 意思为 0.0
+      - [x] np.maximum(x1, x2:array_like)
+      - [x] numpy 默认的数据类型是？
+    - [ ] Y[i, :] == y for i in range(0, 32) ?
+         - [x] == ，此符号意思是？
+              - [x] python 比较符号
+         - [ ] y for i in range(0, 32) ?
 - [ ] **具体作业追踪 Issue 模板建议**
-- [ ] < 任务 >（< SHA >   t< 用时min >）
+- [ ] < 任务 >（< SHA >   t< 0时min >）
         - 思考
 - [ ] 「具体作业追踪 Issue 模板建议」（md格式「+」替换为「-」）
 ### 收集箱
