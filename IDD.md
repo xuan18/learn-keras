@@ -63,7 +63,7 @@
     - [ ] Y[i, :] == y for i in range(0, 32) ?
          - [x] == ，此符号意思是？
               - [x] python 比较符号
-         - [ ] y for i in range(0, 32) ?
+         - [ ] y for i in range(0, 32) ？
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 0时min >）
         - 思考
