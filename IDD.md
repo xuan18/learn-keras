@@ -42,10 +42,10 @@
             - [ ] 学习英语阅读
             - [ ] 刻意练习
 - [ ] **d？ 学习Keras**
-    - [ ] 参考：《 [当 AlphaGo 战胜李世石以后，我们来聊聊深度学习](https://www.infoq.cn/article/Lets-talk-about-deep-learning.) 》
-    - [x] 安装ubuntu
-    - [ ] relu函数是？
-    - [x] 理解2.3.1
+     - [ ] 参考：《 [当 AlphaGo 战胜李世石以后，我们来聊聊深度学习](https://www.infoq.cn/article/Lets-talk-about-deep-learning.) 》
+     - [x] 安装ubuntu
+     - [ ] relu函数是？
+     - [x] 理解2.3.1
       - [x] x[i, j] 是什么？
         - [x] https://blog.csdn.net/xinjieyuan/article/details/81429048
           - [x] ​对于 numpy的dtype **x(array)**（例如 `x = numpy.arrary([1,2])`), i 和 j 表示 索引位置
@@ -56,14 +56,21 @@
             - [x] 忽略了要把 range 和 x[i,j] 放在一起理解，作注释会容易理解点，i 是列，j 是行
         - [x] 轴(axis)
           - [x] 张量的维度通常叫做轴 p23
-    - [x] [numpy.maximun](https://docs.scipy.org/doc/numpy/reference/generated/numpy.maximum.html)
+     - [x] [numpy.maximun](https://docs.scipy.org/doc/numpy/reference/generated/numpy.maximum.html)
       - [x] 0. 意思为 0.0
       - [x] np.maximum(x1, x2:array_like)
       - [x] numpy 默认的数据类型是？
-    - [ ] Y[i, :] == y for i in range(0, 32) ?
-         - [x] == ，此符号意思是？
-              - [x] python 比较符号
-         - [ ] y for i in range(0, 32) ？
+     - [ ] Y[i, :] == y for i in range(0, 32) ?
+          - [x] == ，此符号意思是？
+          - [x] python 比较符号
+          - [ ] y for i in range(0, 32) ？
+            - [ ] 未能得到理解，因其与列表推导式不同，没有中括号（“[...]”）包围
+            - 参考
+              - [python中，(x for y in z for x in y)这个结构怎么理解？](https://blog.csdn.net/weixin_42427638/article/details/85261284)
+              - [Python 列表推导式](https://www.runoob.com/note/15802)
+              - -[ python中items =[[x, y]for (y, x) in pairs]是什么意思](https://ask.csdn.net/questions/652782)
+              - [列表推导式[x for x in range(n)]](https://blog.csdn.net/liukai2918/article/details/80428441)
+     - [x] 处理ubuntu通知弹窗
 - [ ] **具体作业追踪 Issue 模板建议**
 - [ ] < 任务 >（< SHA >   t< 0时min >）
         - 思考
