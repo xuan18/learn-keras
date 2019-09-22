@@ -71,7 +71,9 @@
               - -[ python中items =[[x, y]for (y, x) in pairs]是什么意思](https://ask.csdn.net/questions/652782)
               - [列表推导式[x for x in range(n)]](https://blog.csdn.net/liukai2918/article/details/80428441)
      - [x] 处理ubuntu通知弹窗
-     - **张量**是矩阵向任意维度推广
+     - **张量**是矩阵向任意维度推广，P23
+     - **ndim**, 轴的个数，P25
+     - []np.random.random, 中没有最后的 random ？ 
 
 
 ### 收集箱

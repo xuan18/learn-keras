@@ -72,10 +72,13 @@ def naive_add_matrix_and_vector(x, y):
 
 naive_add_matrix_and_vector(x, y)
 
-x = np.random.random((64, 3, 32, 10))
-y = np.random.random((32, 10))
+x = np.random.random_sample((64, 3, 32, 10))
+y = np.random.random_sample((32, 10))
+
+print(y)
 
 z = np.maximum(x, y)
+# print(z)
 
 # 2.3.3
 # z = np.dot(x ,y)
@@ -95,3 +98,31 @@ def naive_vector_dot(x, y):
 x =  np.array([5, 78, 2, 24, 0])
 y =  np.array([5, 78, 2, 24, 0])
 naive_vector_dot(x, y)
+
+x =  np.array([[8, 78, 2, 24, 0],
+               [5, 78, 2, 24, 0]])
+y =  np.array([5, 78, 2, 24, 0])
+
+@ps.snoop()
+def naive_add_matrix_and_dot(x, y):
+    assert len(x.shape) == 2
+    assert len(y.shape) == 1
+    assert x.shape[1] == y.shape[0]
+
+    z = np.zeros(x.shape[0])
+    for i in range(x.shape[0]):
+        for j in range(x.shape[1]):
+            z[i] += x[i, j] * y[j]
+    return z
+
+naive_add_matrix_and_dot(x, y)
+
+@ps.snoop()
+def naive_matrix_vector_dot(x, y):
+    z = np.zeros(x.shape[0])
+    for i in range(x.shape[0]):
+        # 
+        z[i] = naive_vector_dot(x[i, :], y)
+    return z
+
+naive_matrix_vector_dot(x, y)
