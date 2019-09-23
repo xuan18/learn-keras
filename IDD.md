@@ -73,7 +73,11 @@
      - [x] 处理ubuntu通知弹窗
      - **张量**是矩阵向任意维度推广，P23
      - **ndim**, 轴的个数，P25
-     - []np.random.random, 中没有最后的 random ？ 
+     - [ ]np.random.random, 中没有最后的 random ？ 
+     - [ ] 2.4.1
+       - [x] 如何理解“这样 epsilon_y 就变成了 a*epsilon_x: 
+         - f(x + epsilon_x) y + a * epsilon_x
+           - 由于在 p 点，f 近似为斜率为 a 的线性函数，取值epsilon_x对应到epsilon_y,所以 epsilon_y = a * epsilon_x
 
 
 ### 收集箱
