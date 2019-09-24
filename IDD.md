@@ -80,6 +80,7 @@
            - 由于在 p 点，f 近似为斜率为 a 的线性函数，取值epsilon_x对应到epsilon_y,所以 epsilon_y = a * epsilon_x
        - [x] 什么是[导数](https://zh.wikipedia.org/wiki/%E5%AF%BC%E6%95%B0)？
      - [ ] 2.4.2 导数的反方向是什么？
+       - [ ] 导数的方向性
 
 
 ### 收集箱
